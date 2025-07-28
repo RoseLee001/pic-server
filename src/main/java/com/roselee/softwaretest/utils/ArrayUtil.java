@@ -7,6 +7,7 @@ import java.util.Arrays;
  * @date 2025/7/23 20:38
  */
 public class ArrayUtil {
+
     public static int findMax(int[] arr) {
         if (arr == null || arr.length == 0) {
             throw new IllegalArgumentException("数组不能为空");
